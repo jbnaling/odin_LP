@@ -1,0 +1,209 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{ 
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.section {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: stretch;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    /*is there a way to set padding top,bottom by %age?*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.header > .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.links a,
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin: 0;
+}
+.links a,
+#one > .container { 
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#two .item{
+    max-width: 100px;
+}
+
+#two{
+    flex-direction: column;
+}
+
+#two,
+#two > .container  {
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    ;
+}
+
+#two > .container {
+    gap: 30px; 
+}
+
+
+.item > img {
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 5px;
+    border: 3px solid #3882F6;
+}
+
+
+#three {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#three,
+#three > .container {
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#four,
+#four > .container {
+    background-color: white;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#four > .container {
+    background-color: #3882F6;
+    flex-grow: 1;
+    border-radius: 5px;
+    border: 3px solid #3882F6;
+    color: white;
+}
+
+#four > .container 
+
+.signUp {
+    margin-top: 1em;
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #3882F6;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    
+}
+
+.author {
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+#action{
+    font-weight: bolder;
+}
+
+#left2 {
+    align-items: flex-start;
+    padding-left: 10%;
+}
+
+button {
+    color: white; 
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 2px solid #3882F6;
+}
+
+#btn2{
+    padding: .5em 1em .5em 1em;
+    border: 2px solid white;
+}
