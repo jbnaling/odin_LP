@@ -16,6 +16,13 @@ body {
     font-size: 24px;
     font-weight: bolder;
     color: #F9FAF8;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.logo > img {
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .section {
@@ -48,6 +55,7 @@ body {
     justify-content: center;
     align-items: center;
     flex: 1;
+    min-height: 50px;
 }
 
 .header,
@@ -109,10 +117,15 @@ h2 {
 
 }
 
+
+#one img{
+    max-width: 300px;
+    max-height: 600px;
+}
+
 #two .item{
     max-width: 100px;
     max-height: 100px;
-    
 }
 
 #two{
